@@ -41,4 +41,13 @@ public class TransactionEntity {
 
     @Column(name = "UpdatedAt")
     private LocalDateTime updatedAt;
+
+    public TransactionEntity(WalletEntity fromWallet, WalletEntity toWallet, BigDecimal transactionValue, TransactionStatusEnum status, LocalDateTime createdAt, LocalDateTime updatedAt) {
+        this.fromWallet = fromWallet;
+        this.toWallet = toWallet;
+        this.transactionValue = transactionValue;
+        this.status = status;
+        this.createdAt = createdAt;
+        this.updatedAt = updatedAt;
+    }
 }

@@ -67,7 +67,7 @@ Esse diagrama auxilia na compreensão dos requisitos funcionais do sistema, most
 As seguintes ferramentas foram utilizadas no desenvolvimento do projeto:
 
 - **Java 17** – Linguagem principal utilizada no backend  
-- **Spring Boot 4.0.0** – Framework para criação de aplicações Java  
+- **Spring Boot 3.1.3** – Framework para criação de aplicações Java  
 - **Maven** – Gerenciador de dependências e build do projeto  
 - **Git** – Controle de versão do código-fonte  
 - **GitHub** – Hospedagem do repositório e versionamento  

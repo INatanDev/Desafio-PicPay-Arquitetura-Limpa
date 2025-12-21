@@ -6,5 +6,5 @@ import java.math.BigDecimal;
 
 public interface ConsultBalanceUseCase {
 
-    BigDecimal consult(Wallet wallet);
+    BigDecimal consult(String taxNumber) throws Exception;
 }
