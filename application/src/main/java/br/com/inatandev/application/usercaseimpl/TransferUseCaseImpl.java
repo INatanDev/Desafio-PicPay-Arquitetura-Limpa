@@ -23,12 +23,13 @@ public class TransferUseCaseImpl implements TransferUseCase {
 
     private TransactionPinValidateUseCase transactionPinValidateUseCase;
 
-    public TransferUseCaseImpl(FindWalletByTaxNumberUseCase findWalletByTaxNumberUseCase, TransactionValidateUseCase transactionValidateUseCase, CreateTransactionUseCase createTransactionUseCase, TransaferGateway transaferGateway, UserNotificationUseCase userNotificationUseCase) {
+    public TransferUseCaseImpl(FindWalletByTaxNumberUseCase findWalletByTaxNumberUseCase, TransactionValidateUseCase transactionValidateUseCase, CreateTransactionUseCase createTransactionUseCase, TransaferGateway transaferGateway, UserNotificationUseCase userNotificationUseCase, TransactionPinValidateUseCase transactionPinValidateUseCase) {
         this.findWalletByTaxNumberUseCase = findWalletByTaxNumberUseCase;
         this.transactionValidateUseCase = transactionValidateUseCase;
         this.createTransactionUseCase = createTransactionUseCase;
         this.transaferGateway = transaferGateway;
         this.userNotificationUseCase = userNotificationUseCase;
+        this.transactionPinValidateUseCase = transactionPinValidateUseCase;
     }
 
     @Override

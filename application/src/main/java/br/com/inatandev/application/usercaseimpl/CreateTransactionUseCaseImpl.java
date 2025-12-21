@@ -10,8 +10,12 @@ public class CreateTransactionUseCaseImpl implements CreateTransactionUseCase {
 
     private CreateTransactionGateway createTransactionGateway;
 
+    public CreateTransactionUseCaseImpl(CreateTransactionGateway createTransactionGateway) {
+        this.createTransactionGateway = createTransactionGateway;
+    }
+
     @Override
-    public Transaction create(Transaction transaction) throws TransferException {
+    public Transaction create(Transaction transaction) throws Exception {
         var transactionSaved = createTransactionGateway.create(transaction);
 
         if(transactionSaved == null){
