@@ -1,6 +1,6 @@
 # Desafio-PicPay-Arquitetura-Limpa
 
-ste projeto foi desenvolvido utilizando Java com Spring Boot, aplicando os princípios da Arquitetura Limpa (Clean Architecture), com foco em manutenibilidade, escalabilidade e baixo acoplamento.
+Este projeto foi desenvolvido utilizando Java com Spring Boot, aplicando os princípios da Arquitetura Limpa (Clean Architecture), com foco em manutenibilidade, escalabilidade e baixo acoplamento.
 
 ## 🎯 Objetivo do Projeto
 
